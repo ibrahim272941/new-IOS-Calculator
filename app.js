@@ -59,7 +59,7 @@ const calculate = () => {
     result.innerText = compute;
   }
   if (previousArea.innerText.includes('/')) {
-    compute = resultValue / previousValue;
+    compute = previousValue / resultValue;
     previousArea.innerText = '';
     result.innerText = compute;
   }
